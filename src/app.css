@@ -1,0 +1,5 @@
+.dashboard-app {
+  min-block-size: 100vh;
+  background-color: var(--bg-color);
+  transition: background-color 0.2s ease-in-out;
+}

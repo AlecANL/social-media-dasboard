@@ -1,0 +1,82 @@
+{
+  "stats_social_media": [
+    {
+      "username": "@nathanf",
+      "social-media": "facebook",
+      "grow": 1987,
+      "current_stat_today": 12,
+      "icon": "./assets/fb-icon.svg"
+    },
+    {
+      "username": "@nathanf",
+      "social-media": "twitter",
+      "grow": 1044,
+      "current_stat_today": 99,
+      "icon": "./assets/tw-icon.svg"
+    },
+    {
+      "username": "@realnathanf",
+      "social-media": "instagram",
+      "grow": 11,
+      "current_stat_today": 1099,
+      "icon": "./assets/ig-icon.svg"
+    },
+    {
+      "username": "Nathan F.",
+      "social-media": "youtube",
+      "grow": 8239,
+      "current_stat_today": 144,
+      "icon": "./assets/yt-icon.svg"
+    }
+  ],
+  "stats_grow": [
+    {
+      "name": "page views",
+      "stat": 87,
+      "grow": 3,
+      "icon": "./assets/fb-icon.svg"
+    },
+    {
+      "name": "likes",
+      "stat": 52,
+      "grow": 2,
+      "icon": "./assets/fb-icon.svg"
+    },
+    {
+      "name": "likes",
+      "stat": 5462,
+      "grow": 2257,
+      "icon": "./assets/ig-icon.svg"
+    },
+    {
+      "name": "profile views",
+      "stat": 52,
+      "grow": 1375,
+      "icon": "./assets/ig-icon.svg"
+    },
+    {
+      "name": "retweets",
+      "stat": 117,
+      "grow": 303,
+      "icon": "./assets/tw-icon.svg"
+    },
+    {
+      "name": "likes",
+      "stat": 507,
+      "grow": 553,
+      "icon": "./assets/tw-icon.svg"
+    },
+    {
+      "name": "likes",
+      "stat": 107,
+      "grow": 19,
+      "icon": "./assets/yt-icon.svg"
+    },
+    {
+      "name": "total views",
+      "stat": 1407,
+      "grow": 12,
+      "icon": "./assets/yt-icon.svg"
+    }
+  ]
+}

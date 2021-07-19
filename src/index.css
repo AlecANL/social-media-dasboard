@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --baseFontFamily: 'Inter', sans-serif;
+  --mobile-mainHeadline: bold 1.5rem / 1.875rem var(--baseFontFamily);
+  --mobile-thirdHeadline: bold 0.875rem / 1rem var(--baseFontFamily);
+  --mobile-statsSocialMedia: bold 3.5rem / 3rem var(--baseFontFamily);
+  --mobile-statsGrow: bold 2rem / 2.375rem var(--baseFontFamily);
+  --mobile-smallStat: bold 0.75rem / 0.875rem var(--baseFontFamily);
+  --mobile-smallTextBold: bold 0.875rem / 1rem var(--baseFontFamily);
+  --desktop-mainHeadline: bold 1.75rem / 2.125rem var(--baseFontFamily);
+  --desktop-statsSocialMedia: bold 3.5rem / 3rem var(--baseFontFamily);
+  --desktop-smallTextBase: normal 0.75rem / 0.875rem var(--baseFontFamily);
+  --desktop-smallTextBold: Bold 0.75rem / 0.875rem var(--baseFontFamily);
+  --desktop-statsGrow: bold 2rem / 2.375rem var(--baseFontFamily);
+  --just-black: #1d1f29;
+  --bg-color: #f2f2f2;
+  --just-gray: #63687d;
+  --soft-gray: #848bab;
+  --just-white: #fff;
+  --card-color: #f1f3fa;
+  --fb-color: #178ff5;
+  --tw-color: #1da1f2;
+  --ig-color: linear-gradient(225deg, #df4896 0%, #ee877e 50.91%, #fdc366 100%);
+  --yt-color: #c4032b;
+  --just-green: #1eb589;
+  --switch-color: #aeb3cb;
+  --activeColor-switch: linear-gradient(225deg, #40db82 0%, #388fe7 98.02%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: var(--baseFontFamily);
+  margin: 0;
+}
+
+.dark-mode {
+  --bg-color: #20222f;
+  --just-black: #fff;
+  --just-gray: #8c98c6;
+}
+
+.light-mode {
+  --bg-color: #f2f2f2;
+  --just-black: #1d1f29;
+  --soft-gray: #848bab;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #20222f;
+    --soft-gray: #fff;
+  }
 }

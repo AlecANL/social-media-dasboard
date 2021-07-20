@@ -1,29 +1,33 @@
 {
   "stats_social_media": [
     {
+      "id": 1,
       "username": "@nathanf",
-      "social-media": "facebook",
+      "social_media": "facebook",
       "grow": 1987,
       "current_stat_today": 12,
-      "icon": "./assets/fb-icon.svg"
+      "icon": "../../../assets/fb-icon.svg"
     },
     {
+      "id": 2,
       "username": "@nathanf",
-      "social-media": "twitter",
+      "social_media": "twitter",
       "grow": 1044,
       "current_stat_today": 99,
       "icon": "./assets/tw-icon.svg"
     },
     {
+      "id": 3,
       "username": "@realnathanf",
-      "social-media": "instagram",
+      "social_media": "instagram",
       "grow": 11,
       "current_stat_today": 1099,
       "icon": "./assets/ig-icon.svg"
     },
     {
+      "id": 4,
       "username": "Nathan F.",
-      "social-media": "youtube",
+      "social_media": "youtube",
       "grow": 8239,
       "current_stat_today": 144,
       "icon": "./assets/yt-icon.svg"

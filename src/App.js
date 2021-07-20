@@ -4,6 +4,7 @@ import Wrapper from './components/wrapper/wrapper.component';
 import Switch from './components/switch/switch.component';
 import data from './data.json';
 import './app.css';
+import SocialStatsList from './components/social-stats/social-stats-list/social-stats-list.component';
 
 function App() {
   const [socialMediaStats] = useState(data);
@@ -22,9 +23,8 @@ function App() {
     setDarkMode(mqList.matches);
     setChecked(mqList.matches);
     console.log(mqList);
+    return () => {};
   }, []);
-
-  console.log(socialMediaStats);
 
   return (
     <div className={`dashboard-app ${colorScheme}`}>
@@ -36,7 +36,9 @@ function App() {
             setChecked={setChecked}
           />
         </Header>
-        <main></main>
+        <main>
+          <SocialStatsList stats={socialMediaStats.stats_social_media} />
+        </main>
       </Wrapper>
     </div>
   );

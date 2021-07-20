@@ -3,8 +3,9 @@ import Header from './components/header/header.component';
 import Wrapper from './components/wrapper/wrapper.component';
 import Switch from './components/switch/switch.component';
 import data from './data.json';
-import './app.css';
 import SocialStatsList from './components/social-stats/social-stats-list/social-stats-list.component';
+import SocialGrowList from './components/social-grow/social-grow-list/social-grow-list.component';
+import './app.css';
 
 function App() {
   const [socialMediaStats] = useState(data);
@@ -38,6 +39,7 @@ function App() {
         </Header>
         <main>
           <SocialStatsList stats={socialMediaStats.stats_social_media} />
+          <SocialGrowList stats={socialMediaStats.stats_grow} />
         </main>
       </Wrapper>
     </div>

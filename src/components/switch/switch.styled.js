@@ -7,7 +7,8 @@ export const InputCheck = styled.input`
   }
   &:checked ~ .button-check::before {
     transform: translateX(40px);
-    background-color: #252b42;
+    background-color: var(--card-color);
+    /* background-color: #252b42; */
   }
 `;
 

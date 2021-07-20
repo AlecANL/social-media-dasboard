@@ -35,17 +35,20 @@ body {
   --bg-color: #20222f;
   --just-black: #fff;
   --just-gray: #8c98c6;
+  /* --card-color: #252b42; */
 }
 
 .light-mode {
-  --bg-color: #f2f2f2;
+  --bg-color: #ffff;
   --just-black: #1d1f29;
   --soft-gray: #848bab;
+  --card-color: #f1f3fa;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #20222f;
     --soft-gray: #fff;
+    --card-color: #252b42;
   }
 }

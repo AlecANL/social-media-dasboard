@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const SocialStatsListStyled = styled.section`
+export const SocialGrowListStyled = styled.section`
   display: grid;
   grid-template-columns: 1fr;
   column-gap: 1.875rem;

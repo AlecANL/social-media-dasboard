@@ -3,8 +3,8 @@ import Header from './components/header/header.component';
 import Wrapper from './components/wrapper/wrapper.component';
 import Switch from './components/switch/switch.component';
 import data from './data.json';
-import SocialStatsList from './components/social-stats/social-stats-list/social-stats-list.component';
-import SocialGrowList from './components/social-grow/social-grow-list/social-grow-list.component';
+import TopCardList from './components/top-card/card-list/top-card-list.component';
+import OverViewList from './components/overview-card/overview-list/overview-list.component';
 import './app.css';
 
 function App() {
@@ -23,8 +23,9 @@ function App() {
     mqList.addEventListener('change', handleMatchMedia);
     setDarkMode(mqList.matches);
     setChecked(mqList.matches);
-    console.log(mqList);
-    return () => {};
+    return () => {
+      mqList.removeEventListener('change', handleMatchMedia);
+    };
   }, []);
 
   return (
@@ -38,8 +39,8 @@ function App() {
           />
         </Header>
         <main>
-          <SocialStatsList stats={socialMediaStats.stats_social_media} />
-          <SocialGrowList stats={socialMediaStats.stats_grow} />
+          <TopCardList stats={socialMediaStats.stats_social_media} />
+          <OverViewList stats={socialMediaStats.stats_grow} />
         </main>
       </Wrapper>
     </div>

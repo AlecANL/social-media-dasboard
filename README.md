@@ -4,6 +4,8 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 
 ## Overview
 
+![screenshot](./public/desktop-preview.jpg);
+
 ### The challenge
 
 Your challenge is to build out this Social Media Dashboard and get it looking as close to the design as possible.
@@ -18,12 +20,18 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+## Dark Mode
+
+![](./public/design-dark.png)
+
+## Light Mode
+
+![](./public/design-ligth.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repo](https://github.com/AlecANL/social-media-dasboard)
+- Live Site URL: [Live Demo](http://social-dashboard-react.netlify.app/)
 
 ## My process
 
@@ -39,6 +47,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@alecanl](https://www.frontendmentor.io/profile/alecanl)
+- Twitter - [@alec](https://www.twitter.com/Alexei_Alvarez4)

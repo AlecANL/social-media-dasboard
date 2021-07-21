@@ -37,6 +37,7 @@ body {
   --just-black: #fff;
   --just-gray: #8c98c6;
   /* --card-color: #252b42; */
+  --bg-hover-card: #333a55;
 }
 
 .light-mode {

@@ -1,12 +1,15 @@
-import { CardSocialStatStyled } from './social-stats-card.styled';
+import { TopCardStyled } from './top-card.styled';
+import ArrowUpIcon from '../../../assets/icon-up.svg';
+import ArrowDowIcon from '../../../assets/icon-down.svg';
 
-function SocialStatsCard({ stat }) {
+function TopCard({ stat }) {
   const isSubscriber =
     stat.social_media === 'youtube' ? 'subscribers' : 'followers';
   const color = stat.social_media === 'youtube' ? 'is-red' : 'is-green';
+  const icon = stat.social_media === 'youtube' ? ArrowDowIcon : ArrowUpIcon;
 
   return (
-    <CardSocialStatStyled className={stat.social_media}>
+    <TopCardStyled className={stat.social_media}>
       <div className="card-social__heading">
         <img src={stat.icon} alt={`${stat.social_media} icon`} />
         <span>{stat.username}</span>
@@ -16,11 +19,12 @@ function SocialStatsCard({ stat }) {
         <span>{isSubscriber}</span>
       </div>
       <div className={`card-social__footer ${color}`}>
+        <img src={icon} width={8} height={4} alt="icon grow" />
         <span>{stat.current_stat_today}</span>
         <span>today</span>
       </div>
-    </CardSocialStatStyled>
+    </TopCardStyled>
   );
 }
 
-export default SocialStatsCard;
+export default TopCard;

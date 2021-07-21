@@ -1,7 +1,6 @@
 import { CardGrowStyled } from './social.grow.card.styled';
 
 function SocialGrowCard({ stat }) {
-  console.log(stat);
   const color = stat.social === 'youtube' ? 'is-red' : 'is-green';
 
   return (
